@@ -46,7 +46,7 @@
   </nav>
 
   <!-- TopPage-->
-  <header class="masthead">
+  <div class="masthead">
     <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
       <div class="d-flex justify-content-center">
         <div class="text-center">
@@ -58,7 +58,7 @@
         </div>
       </div>
     </div>
-  </header>
+  </div>
 
 
   <!-- try = Our try it Out Section-->
@@ -193,9 +193,6 @@
   </section>
   <!-- Projects-->
   <section class="result-section bg-light" id="result">
-    <!-- <div class="container px-10 px-lg-10"> -->
-
-    <!-- Featured Project Row-->
     <div class="row align-items-center">
       <div class="col-xl-7">
         <img class="img-fluid" style="width: 100%" src="{{ url_for('static',filename='assets/img/Brain.jpg') }}"
@@ -218,7 +215,6 @@
         </div>
       </div>
     </div>
-    <!-- </div> -->
   </section>
 
   <!-- dashboard = Our dashboard Section -->
@@ -229,6 +225,7 @@
         <button style="width:100px;" id="firstviz" onclick="javascript:createViz(-1);">Previous</button>
         <button style="width:100px;" onclick="javascript:createViz(1);">Next</button>
       </div>
+    </div>
     </div>
   </section>
 
