@@ -62,23 +62,23 @@ def home():
         if ((result[0].astype(int)) == 2):
             # 'Obesity_Type_I'
             detail = 'Your BMI is between 30 to 34.9'
-            detail2 = 'Eat a balanced, calorie-controlled diet as recommended by your GP or weight loss management health professional (such as a dietitian). Take up activities such as fast walking, jogging, swimming or tennis for 150 to 300 minutes (two-and-a-half to five hours) a week.'
+            detail2 = 'Oopsie. not a good sign. seek GP for more help.'
         if ((result[0].astype(int)) == 3):
             # 'Obesity_Type_II'
             detail = 'Your BMI is between 35 to 39.9'
-            detail2 = 'Eat a balanced, calorie-controlled diet as recommended by your GP or weight loss management health professional (such as a dietitian). Take up activities such as fast walking, jogging, swimming or tennis for 150 to 300 minutes (two-and-a-half to five hours) a week.'
+            detail2 = 'May day May day.. its getting serious here, specialist required to help you out.'
         if ((result[0].astype(int)) == 4):
             # 'Obesity_Type_III'
             detail = 'Your BMI is more than 40'
-            detail2 = 'Eat a balanced, calorie-controlled diet as recommended by your GP or weight loss management health professional (such as a dietitian). Take up activities such as fast walking, jogging, swimming or tennis for 150 to 300 minutes (two-and-a-half to five hours) a week.'
+            detail2 = 'Sign up for gym, go to GP then refer for specialist, hit the PT session, do bootcamp and be strict and follow the diet recommended by dietitian.'
         if ((result[0].astype(int)) == 5):
             # 'Overweight_Level_I'
             detail = 'Your BMI is between 25 to 27.4'
-            detail2 = 'Eat a balanced, calorie-controlled diet as recommended by your GP or weight loss management health professional (such as a dietitian). Take up activities such as fast walking, jogging, swimming or tennis for 150 to 300 minutes (two-and-a-half to five hours) a week.'
+            detail2 = 'Time to go hit the gym and move your sexy ass.'
         if ((result[0].astype(int)) == 6):
             # 'Overweight_Level_II'
             detail = 'Your BMI is between 27.5 to 29.9	'
-            detail2 = 'Eat a balanced, calorie-controlled diet as recommended by your GP or weight loss management health professional (such as a dietitian). Take up activities such as fast walking, jogging, swimming or tennis for 150 to 300 minutes (two-and-a-half to five hours) a week.'
+            detail2 = 'Time to sign up for PT (personal training).'
 
 
 
