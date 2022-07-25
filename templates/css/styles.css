@@ -12037,7 +12037,7 @@ body {
   background: linear-gradient(
     to bottom,
     #000 0%,
-    rgba(65, 0, 0, 0.9) 75%,
+    rgba(0, 0, 0, 0.9) 75%,
     rgba(0, 0, 0, 0.8) 100%
   );
 }
@@ -12046,7 +12046,7 @@ body {
 }
 
 .dashboard-section {
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 .dashboard-section .featured-text {
   padding: 2rem;
