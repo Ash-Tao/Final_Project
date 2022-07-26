@@ -82,7 +82,7 @@ def home():
 
 
 
-        return render_template('home.html', scroll='something',  health = bmi,detail = detail, detail2 = detail2)
+        return render_template('home.html', _anchor="result",  health = bmi,detail = detail, detail2 = detail2)
 
 
     

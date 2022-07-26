@@ -32,4 +32,3 @@ function createViz(vizPlusMinus) {
 }
 document.getElementById("firstviz").click();
 
-document.getElementById("{{ scroll }}").scrollIntoView();
